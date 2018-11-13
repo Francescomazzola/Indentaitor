@@ -43,6 +43,7 @@ namespace Indentator
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 percorso=openFileDialog1.FileName;
+                pathTB.Text = percorso;
             }
         }
         private void indenterButton_Click(object sender, EventArgs e)

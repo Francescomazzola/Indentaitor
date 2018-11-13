@@ -31,6 +31,7 @@
             this.codeTBEditor = new System.Windows.Forms.TextBox();
             this.indenterButton = new System.Windows.Forms.Button();
             this.selectfileButton = new System.Windows.Forms.Button();
+            this.pathTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // codeTBEditor
@@ -61,11 +62,20 @@
             this.selectfileButton.UseVisualStyleBackColor = true;
             this.selectfileButton.Click += new System.EventHandler(this.selectfileButton_Click);
             // 
+            // pathTB
+            // 
+            this.pathTB.Enabled = false;
+            this.pathTB.Location = new System.Drawing.Point(93, 14);
+            this.pathTB.Name = "pathTB";
+            this.pathTB.Size = new System.Drawing.Size(473, 20);
+            this.pathTB.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 385);
+            this.Controls.Add(this.pathTB);
             this.Controls.Add(this.selectfileButton);
             this.Controls.Add(this.indenterButton);
             this.Controls.Add(this.codeTBEditor);
@@ -81,6 +91,7 @@
         private System.Windows.Forms.TextBox codeTBEditor;
         private System.Windows.Forms.Button indenterButton;
         private System.Windows.Forms.Button selectfileButton;
+        private System.Windows.Forms.TextBox pathTB;
     }
 }
 
