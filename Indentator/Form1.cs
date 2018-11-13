@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.IO;
 
 namespace Indentator
 {
@@ -44,6 +44,8 @@ namespace Indentator
             {
                 percorso=openFileDialog1.FileName;
                 pathTB.Text = percorso;
+
+                codeTBEditor.Text = System.IO.File.ReadAllText(percorso);
             }
         }
         private void indenterButton_Click(object sender, EventArgs e)
