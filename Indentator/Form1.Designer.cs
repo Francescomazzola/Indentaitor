@@ -36,17 +36,18 @@
             // 
             // codeTBEditor
             // 
-            this.codeTBEditor.Location = new System.Drawing.Point(12, 73);
+            this.codeTBEditor.Location = new System.Drawing.Point(12, 59);
             this.codeTBEditor.Multiline = true;
             this.codeTBEditor.Name = "codeTBEditor";
+            this.codeTBEditor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.codeTBEditor.Size = new System.Drawing.Size(554, 200);
             this.codeTBEditor.TabIndex = 0;
             // 
             // indenterButton
             // 
-            this.indenterButton.Location = new System.Drawing.Point(12, 350);
+            this.indenterButton.Location = new System.Drawing.Point(12, 279);
             this.indenterButton.Name = "indenterButton";
-            this.indenterButton.Size = new System.Drawing.Size(75, 23);
+            this.indenterButton.Size = new System.Drawing.Size(554, 94);
             this.indenterButton.TabIndex = 1;
             this.indenterButton.Text = "indent";
             this.indenterButton.UseVisualStyleBackColor = true;
@@ -65,7 +66,7 @@
             // pathTB
             // 
             this.pathTB.Enabled = false;
-            this.pathTB.Location = new System.Drawing.Point(93, 14);
+            this.pathTB.Location = new System.Drawing.Point(93, 12);
             this.pathTB.Name = "pathTB";
             this.pathTB.Size = new System.Drawing.Size(473, 20);
             this.pathTB.TabIndex = 3;
