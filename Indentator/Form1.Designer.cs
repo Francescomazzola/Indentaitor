@@ -28,12 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.codeTBEditor = new System.Windows.Forms.TextBox();
+            this.indenterButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // codeTBEditor
+            // 
+            this.codeTBEditor.Location = new System.Drawing.Point(12, 34);
+            this.codeTBEditor.Multiline = true;
+            this.codeTBEditor.Name = "codeTBEditor";
+            this.codeTBEditor.Size = new System.Drawing.Size(554, 200);
+            this.codeTBEditor.TabIndex = 0;
+            // 
+            // indenterButton
+            // 
+            this.indenterButton.Location = new System.Drawing.Point(12, 350);
+            this.indenterButton.Name = "indenterButton";
+            this.indenterButton.Size = new System.Drawing.Size(75, 23);
+            this.indenterButton.TabIndex = 1;
+            this.indenterButton.Text = "indent";
+            this.indenterButton.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(578, 385);
+            this.Controls.Add(this.indenterButton);
+            this.Controls.Add(this.codeTBEditor);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox codeTBEditor;
+        private System.Windows.Forms.Button indenterButton;
     }
 }
 
