@@ -45,6 +45,7 @@
             // 
             // indenterButton
             // 
+            this.indenterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.indenterButton.Location = new System.Drawing.Point(12, 279);
             this.indenterButton.Name = "indenterButton";
             this.indenterButton.Size = new System.Drawing.Size(554, 94);
