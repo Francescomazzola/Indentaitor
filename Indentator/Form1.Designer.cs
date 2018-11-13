@@ -30,11 +30,12 @@
         {
             this.codeTBEditor = new System.Windows.Forms.TextBox();
             this.indenterButton = new System.Windows.Forms.Button();
+            this.selectfileButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // codeTBEditor
             // 
-            this.codeTBEditor.Location = new System.Drawing.Point(12, 34);
+            this.codeTBEditor.Location = new System.Drawing.Point(12, 73);
             this.codeTBEditor.Multiline = true;
             this.codeTBEditor.Name = "codeTBEditor";
             this.codeTBEditor.Size = new System.Drawing.Size(554, 200);
@@ -50,11 +51,22 @@
             this.indenterButton.UseVisualStyleBackColor = true;
             this.indenterButton.Click += new System.EventHandler(this.indenterButton_Click);
             // 
+            // selectfileButton
+            // 
+            this.selectfileButton.Location = new System.Drawing.Point(12, 12);
+            this.selectfileButton.Name = "selectfileButton";
+            this.selectfileButton.Size = new System.Drawing.Size(75, 23);
+            this.selectfileButton.TabIndex = 2;
+            this.selectfileButton.Text = "select file";
+            this.selectfileButton.UseVisualStyleBackColor = true;
+            this.selectfileButton.Click += new System.EventHandler(this.selectfileButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 385);
+            this.Controls.Add(this.selectfileButton);
             this.Controls.Add(this.indenterButton);
             this.Controls.Add(this.codeTBEditor);
             this.Name = "Form1";
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.TextBox codeTBEditor;
         private System.Windows.Forms.Button indenterButton;
+        private System.Windows.Forms.Button selectfileButton;
     }
 }
 
