@@ -48,6 +48,7 @@
             this.indenterButton.TabIndex = 1;
             this.indenterButton.Text = "indent";
             this.indenterButton.UseVisualStyleBackColor = true;
+            this.indenterButton.Click += new System.EventHandler(this.indenterButton_Click);
             // 
             // Form1
             // 
